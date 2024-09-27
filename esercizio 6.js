@@ -1,16 +1,20 @@
-function stabellatore(numero) {
+function colcatz(numero) {
 
-for (let i = 0; numero = 1 ; i++) {
+let arr = [numero];
 
-if (numero % 2 == 0) {
-return console.log(numero / 2);
-} else {
-    (numero * 3)+1
-    console.log(numero)
+
+while (numero > 1) {
+    if (numero % 2 == 0) {
+     numero = numero / 2
+//   console.log(numero);
+
+ } else {
+     numero = numero * 3 +1;
+    //  console.log(numero)
+ }
+ arr.push(numero)
 }
+return console.log(arr);
 
 }
-
-}
-
-// stabellatore(10)
+colcatz(100);
