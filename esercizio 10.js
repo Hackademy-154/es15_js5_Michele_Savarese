@@ -6,4 +6,4 @@ let arr2 = arr.reduce((accumulator,currentValue)=> accumulator +Number(currentVa
 
 console.log(arr2);
 }
-stringhisomminator(`Ciao 61 oppure 7 1 zero?`)
+stringhisomminator(`a 5 a 7?`)
