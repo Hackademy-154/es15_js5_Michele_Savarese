@@ -4,7 +4,7 @@ Ad esempio: "Sono una stringa" => "/sono-una-stringa" */
 function slugginatore(stringa) {
 let arr1 = stringa.toLowerCase().split(' ').join('-');
 
-console.log(arr1);
+console.log(`/` + arr1);
 
 }
 
